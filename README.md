@@ -1,8 +1,8 @@
-# Toronto Housing Prices Estimator
+# Canadian Housing Prices Estimator
 
 ## Introduction
 
-This project aims to predict the current value of unlisted properties in the Toronto region using a sophisticated multilayer perceptron model that considers over 30 variables. The ultimate goal is to integrate this model into a web application, possibly developed with Python-Flask and React, allowing users to input an address or postal code and receive an estimated property value instantly.
+This project aims to predict the current value of unlisted properties in the Greater Toronto region using a sophisticated multilayer perceptron model that considers over 30 variables. The ultimate goal is to integrate this model into a web application, possibly developed with Python-Flask and React, allowing users to input an address or postal code and receive an estimated property value instantly.
 
 ## Data
 
@@ -16,33 +16,6 @@ The machine learning model incorporates a diverse set of features to ensure accu
 - **Property Type:** The category of property (e.g., detached, condo, etc.).
 - **Nearby Amenities:** Proximity to essential services such as schools and grocery stores.
 - **School Rankings:** The quality of educational institutions in the vicinity.
-
-### Visualizations
-
-To better understand the data and its underlying patterns, we have created several visualizations:
-
-- **Correlation Matrix of Features:**  
-  ![Correlation Matrix](figures/correlations.png)
-
-- **Location Data by Region (Heatmap):**  
-  ![Heatmap](figures/heatmap.png)
-
-## Neural Network Architecture
-
-The backbone of our prediction model is a carefully designed neural network architecture, visualized below along with its training performance:
-
-- **Model Architecture:**  
-  ![NN Architecture](figures/archetecture.png)
-
-- **Model Loss Over Training:**  
-  ![Model Loss](figures/model_loss.png)
-
-## Results
-
-The model has demonstrated promising results in estimating property values accurately, as illustrated in the following chart:
-
-- **Prediction Results:**  
-  ![Results](figures/results.png)
 
 ## Conclusion
 
