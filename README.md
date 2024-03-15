@@ -1,4 +1,4 @@
-# Canadian Housing Prices Estimator
+# Canadian Housing Cost Estimator
 
 ## Introduction
 
